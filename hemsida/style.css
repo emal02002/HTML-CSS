@@ -1,96 +1,84 @@
-body
+body /**/
 {
-	background-image: url(https://www.setaswall.com/wp-content/uploads/2017/11/Audi-R8-Desktop-Wallpaper-17-1920x1080.jpg); 
-  background-size: 100%;
-	color:#bdc3c7;
+	background-image: url(https://www.setaswall.com/wp-content/uploads/2017/11/Audi-R8-Desktop-Wallpaper-17-1920x1080.jpg); /* länk till backgrunden jag har använt till min hemsida*/
+  background-size: 100%; /*storleken ska vara som i själva bilden*/
+	color:#bdc3c7; /* färgen för texten är grå*/
 }
 
-ul
+ul/* punk lista*/
 {
-  opacity: 0.5;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #3CBCDF;
+  opacity: 0.5; /* hur mycket genomskinlig vill jag ha listan*/
+  list-style-type: none; /* jag vill inte att den ska punkter*/
+  overflow: hidden; /* det som gör att innehållet blir markeret */
+  background-color: #3CBCDF; /*bakgrundfärg blå*/
   
 }
 
-li 
+li /*lista för navigationsbaren*/
  {
- opacity: 0.8;
- float: left;
- display: block;
- color: white;
- text-align: center;
- padding: 16px 23px;
- border-right: 2px solid #bbb;
+  opacity: 0.8; /* hur mycket genomskinlig vill jag ha listan*/
+  float: left; /*hur listan ska ställs, i mitt fall är åt vänster*/
+  padding: 16px 23px; /* det gör hur mycket bredd och höjd ska vara på listan från inuti*/
+  border-right: 2px solid #bbb; /*det gör att man får en streck som en tabell*/
 }
  
 /*tar bort linjer*/
-a
+a/*det är hur taggarna ska vara*/
 {
- text-decoration: none;
- 
+ text-decoration: none; /*Det gör att den tar bort understruckna linjer som ligger under varje länk*/
 }
 
-table{
-	width:60%;
-}
-table, th, td, tr{
-	border:1px solid black;
-	border-collapse: collapse;	
+table /* det för tabellen*/
+{
+	width:60%; /* Det hur mycket bred jag vill ha tabellen*/
 }
 
-
-th:nth-child(1){
-	text-align:left;
+table, th, td, tr /*Det ändra på tabellen, rader, celler,huvudrubriker */
+{
+	border:1px solid black; /*att man vill ha linjer mellan varje cell i tabell*/
+	border-collapse: collapse;	 /*att det ska vara en linje i tabellen och inte massa linjer mellan celler*/ 
 }
 
 
-th:nth-child(4){
-	text-align:right;	
+th:nth-child(1) /*det är att specifera huvudrubriker i tabeller*/
+{
+	text-align:left; /*att den ska placeras till vänster*/
 }
 
 
-td:nth-child(1){
-	text-align:left;
+td:nth-child(1) /*specifera det som ska stå i första raden av tabellen*/
+{
+	text-align:left; /**/
 	
 }
 
-tr:nth-child(1){
-	background:	#FAEBD7;
-	text-align : center;	
-}
-
-tr:nth-child(2), tr:nth-child(4){
-	background:	#A57164;
-	text-align : center; 
-}
-
-
-tr:nth-child(3), tr:nth-child(5){
-	background:#F1DDCF;
-	text-align : center
-}
-
-
-/*Audi rubriken*/
-h1
+tr:nth-child(1) /*det som speciferar det som under första cellen eller raden*/
 {
-  padding: 20px;
-  text-align: center;
-}
-.Erbjudanden{
-	text-align: center;
+	background:	#FAEBD7; /*Det vilken färg på cellen*/
+	text-align : center;	 /*hur texten ska placeras*/
 }
 
+tr:nth-child(2), tr:nth-child(4) /*har jag speciferat två celler ihop*/
+{
+	background:	#A57164; /*vilken färg på cellen*/
+	text-align : center; /*texten ska vara centrerad i cellerna*/
+}
+
+
+tr:nth-child(3) /* speiceferat en viss cell*/
+{
+	background:#F1DDCF; /*färgen på cellen*/
+	text-align : center /* centrera texten*/
+}
 
 
 
+h1 /*Audi rubriken*/
+{
+  text-align: center; /* centrera huvudrubriken*/
+}
 
-
-
-
-
-
+.Erbjudanden /*detta är en klass som jag har använt i html*/
+{
+	text-align: center; /*texten ska vara centrerad*/
+}
