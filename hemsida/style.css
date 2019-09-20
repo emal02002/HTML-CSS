@@ -1,0 +1,96 @@
+body
+{
+	background-image: url(https://www.setaswall.com/wp-content/uploads/2017/11/Audi-R8-Desktop-Wallpaper-17-1920x1080.jpg); 
+  background-size: 100%;
+	color:#bdc3c7;
+}
+
+ul
+{
+  opacity: 0.5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3CBCDF;
+  
+}
+
+li 
+ {
+ opacity: 0.8;
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 16px 23px;
+ border-right: 2px solid #bbb;
+}
+ 
+/*tar bort linjer*/
+a
+{
+ text-decoration: none;
+ 
+}
+
+table{
+	width:60%;
+}
+table, th, td, tr{
+	border:1px solid black;
+	border-collapse: collapse;	
+}
+
+
+th:nth-child(1){
+	text-align:left;
+}
+
+
+th:nth-child(4){
+	text-align:right;	
+}
+
+
+td:nth-child(1){
+	text-align:left;
+	
+}
+
+tr:nth-child(1){
+	background:	#FAEBD7;
+	text-align : center;	
+}
+
+tr:nth-child(2), tr:nth-child(4){
+	background:	#A57164;
+	text-align : center; 
+}
+
+
+tr:nth-child(3), tr:nth-child(5){
+	background:#F1DDCF;
+	text-align : center
+}
+
+
+/*Audi rubriken*/
+h1
+{
+  padding: 20px;
+  text-align: center;
+}
+.Erbjudanden{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
