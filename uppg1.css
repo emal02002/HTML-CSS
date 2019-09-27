@@ -1,11 +1,33 @@
 body{
 	color:black;
-	background-color:white;
+	background-color:gray;
 	font-style: Arial; 
 }
+.wrapper{
+	display: grid;
+	grid-template-columnss: 1fr 1fr 1fr;
+	grid-template-areas: "content1 content2 content3";
+}
+.content1{
+	display:grid;
+	grid-area: "content1"; 
+	border:black;
+}
+.content2{
+	display:grid;
+	grid-area: "content2"; 
+	border:black;
+}
+
+.content3{
+	display:grid;
+	grid-area: "content3";
+	border-collapse: pblack;	
+}
+
+
 
 h1{
-	border:solid;
 	font-style: Arial;
 	color:blue;
 	font-size:22px;
@@ -17,15 +39,12 @@ p{
 } 
 h2{
 	color:red;
-	background-color: brown;
-	text-align:center
+	text-align:center;
+	font-size:22px;
+	
 }
 h3{
 	text-align:right;
-}
-.p3{
-	text-align:right;
-	
 }
 .p2 {
 	background-color: gray;
@@ -34,9 +53,14 @@ h3{
 }
 
 .special{
-	border:solid;
 	color:black;
 	font-size: 14px;
+}
+.p3{
+	text-align:right;
+	
+}
+
 }
 a {
 text-decoration: none;
