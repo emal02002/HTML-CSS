@@ -1,0 +1,42 @@
+body{
+	color:#63594d;
+	font-family: Arial; 
+	background-image: url(https://i.gifer.com/33HO.gif);
+}
+
+
+.wrapper{
+	display: grid;
+	grid-template-columnss: 1fr 1fr 1fr;
+	grid-template-areas: "content1 content2 content3";
+}
+.content1{
+	display:grid;
+	grid-area: "content1"; 
+	border:black;
+	font-size: 16px;
+}
+.content2{
+	display:grid;
+	grid-area: "content2"; 
+	border:black;
+	text-align: center;
+	font-size: 16px;
+}
+
+.content3{
+	display:grid;
+	grid-area: "content3";
+	border-collapse: 1px solid black;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+
+
+
+}
+a {
+text-decoration: none;
+}
