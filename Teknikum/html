@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+        <meta charset="utf-8">
+        <title> Emad Ali</title>
+		<link href="uppg2.css" rel="stylesheet">
+  </head>
+	
+	  <body>
+	  <div class="wrapper">
+		  <section class="content1">
+				  <h1> Emad Ali</h1>
+					 <p class="special"> Jag heter Emad och går på teknik programmet på teknikum, jag gillar att träna på gymmet<br> Jag har spelat fotboll tidigre med ett lag, men just nu så spelar jag fotboll med vänner</p>
+				  <h2> Mina Intressen </h2>
+					 <p> Mina intressen är att jag gillar att gå på gym<br> Dessutom så gillar jag att spela dataspel</p>
+		  
+		  </section>
+		  
+		  
+		  <section class= "content2">
+			  <h2> Teknikprogammet</h2>  
+				 <p>Teknikprogrammet är ett brett program för de som är osäkra på vad de vill bli.<br> Därför har jag valt detta program.
+				 Jag tycker att kursen intressant och det vi lär oss väldigt bra<br> då vi alltid få presentaion sen kan vi testa själva </p>
+				 <h2> Mina Tankar kring kursen </h2>
+				 <p class="p3"> Jag valde att läsa den här kusen för att jag har intresse för att lära mig de. Mina förväntningar är att lära mig mer om html</p>
+		  </section>
+		  
+		  
+		  <section class="content3">
+			   <h2> Min skola</h2>
+				<img src="https://www.mattecentrum.se/media/1396/vaxjo_teknikum.jpg?width=619" alt="teknikum"> 
+			  <br>
+			 <a href="sida2.html">https://teknikum.se</a>
+		 </section>
+		 
+	   </div>
+	  
+	  </body>
+	  
+	  </html>
